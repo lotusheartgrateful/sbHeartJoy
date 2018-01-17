@@ -1,1 +1,1 @@
-This is a sample text file for GIT training.
+This is a sample text file for GIT training. hello
