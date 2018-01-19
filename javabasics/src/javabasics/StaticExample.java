@@ -1,5 +1,7 @@
 package javabasics;
 
+import static java.lang.System.out;
+
 public class StaticExample {
 
 	private static String description;
@@ -41,5 +43,6 @@ public class StaticExample {
 	
 	public static void display(String str) {
 		System.out.println(str);
+		out.println("Testing static imports - " + str);
 	}
 }
