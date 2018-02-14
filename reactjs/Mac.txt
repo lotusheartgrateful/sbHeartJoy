@@ -1,0 +1,28 @@
+ https://www.kirupa.com/react/setting_up_react_environment.htm
+ 
+ Go to the Github project folder
+ Ensure node and npm are available
+ node -v
+ npm -v
+ 
+ Now, try installing create-react-app
+ npm install -g create-react-app (installs globally).
+ If not administrator, this will fail. So, use sudo command as below:
+ sudo npm install -g create-react-app
+ 
+ Now, try typing just "create-react-app" and see if it works. If it says, "command not found", then the .npm-packages is not available globally.
+ So, add to the PATH & than to the bash_profile by typing the below 2 lines:
+ 
+ echo 'export PATH="$HOME/.npm-packages/bin:$PATH"' >> ~/.bash_profile
+ source ~/.bash_profile
+ 
+ Now, check again!
+ Just type create_react_app & if no error, we are good to create a new project
+ 
+ create_react_app <new project name>
+ 
+ cd <new project name>
+ npm start
+ 
+ This will start the server & open localhost port for the new project created.
+ You can delete all files from the /src and /public directories to get started on your project
