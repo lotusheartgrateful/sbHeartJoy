@@ -1,0 +1,83 @@
+#starsDiv span {
+	margin: 6px;
+	color: green;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#numbersDiv span {
+	margin: 0.5em;
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #ccc;
+	width: 24px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#numbersDiv {
+	border: solid 1px green;
+	width: 600px;
+	padding: 10px;
+	text-align: center;
+	margin-top:20px;
+}
+
+#buttonDiv button {
+	font-size: 20px;
+	padding: 6px;
+}
+
+.btn {
+	padding: 5px;
+	text-align: center;
+}
+
+.btn-success {
+	color: green;
+}
+
+.btn-fail {
+	color: red;
+}
+
+.btn-warning {
+	background-color: yellow;
+}
+
+.selected {
+	background-color: #eee !important;
+	color: #ddd !important;
+	cursor: not-allowed;
+}
+
+.used {
+	background-color: #aaddaa !important;
+	color: #99bb99 !important;
+	cursor: not-allowed;
+}
+
+#answersDiv span {
+	margin: 0.5em;
+	text-align: center;
+	color: blue;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #ccc;
+	width: 24px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#answersDiv {
+	border: solid 1px green;
+	width: 600px;
+	padding: 10px;
+	text-align: center;
+	margin-top:20px;
+}
