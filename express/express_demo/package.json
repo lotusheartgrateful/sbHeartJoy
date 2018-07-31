@@ -1,0 +1,17 @@
+{
+  "name": "express_demo",
+  "version": "1.0.0",
+  "description": "Express demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sujatha Bharath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "joi": "^13.1.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.36"
+  }
+}
